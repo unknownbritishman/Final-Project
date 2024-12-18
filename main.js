@@ -22,7 +22,7 @@ function displayProducts() {
        return `<article class="product">
                     <img src="${product.image}" alt="" />
                     <footer>
-                        <a href="${product.link}">${product.title}</a>
+                        <a href="${product.link}"target="_blank">${product.title}</a>
                         <p class="product-price">${product.price}</p>
                     </footer>
                 </article>`
