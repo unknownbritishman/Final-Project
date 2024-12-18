@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Furniture Store</title>
+    <link rel="icon" type="image/x-icon" href="https://www.tennessean.com/gcdn/presto/2019/10/11/PNAS/adf1101a-0f8c-404f-9df3-5837bf387dfd-1_Exterior_House_Beautiful_Whole_Home_Concept_House_Castle_Homes_Photo_Reed_Brown_Photography.jpg?crop=5619,3161,x0,y104&width=3200&height=1801&format=pjpg&auto=webp">
+    <link rel="stylesheet" href="style.css">
+    <script src="products.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="products">
+            <div class="sidebar">
+                <form class="input-form">
+                <input type="text" class="search-input" placeholder="search...">
+                </form>
+            </div>
+            <div class="not-sidebar">
+                <article class="product">
+                    <img src="https://placeholder.com/250" alt="" />
+                    <footer>
+                        <button class="product-name">Furniture name</button>
+                        <p class="product-price">$99.99</p>
+                    </footer>
+                </article>
+            </div>
+        </section>
+    </main>
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup" id="popup">
+            <span class="close" id="closePopup">&times;</span>
+            <div class="popup-content">
+                <p>Hello Welcome to my store</p>
+                <p>Enter your number to get updates on your order</p>
+                <input type="Phone Number" placeholder="Your Phone Number" id="Phonenumber">
+                <!-- why? !fun -->
+                <button id="finish">Get Updates</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
