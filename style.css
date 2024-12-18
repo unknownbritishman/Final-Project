@@ -1,5 +1,5 @@
 html {
-    background-color: black;
+    background-color: gray;
     color: aqua; 
 }
 
@@ -10,6 +10,9 @@ p {
 img {
     height: 550px;
     width: 550px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
 }
 
 button {
